@@ -1,8 +1,10 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-ruby ">= 3.0.0"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "mysql2"
-gem "erb"
-gem "inifile"
+ruby '>= 3.0.0'
+
+gem 'erb'
+gem 'inifile'
+gem 'mysql2'
+gem 'sinatra'
